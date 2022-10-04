@@ -1,0 +1,27 @@
+{
+  "name": "webgl-exploration-002",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-glsl": "^0.4.0"
+  },
+  "dependencies": {
+    "ogl-typescript": "^0.1.40"
+  }
+}
