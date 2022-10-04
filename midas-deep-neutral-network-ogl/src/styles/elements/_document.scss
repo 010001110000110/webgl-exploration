@@ -1,0 +1,45 @@
+html {
+  min-height: 100%; // [2]
+  font-family: sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #161616;
+  color: #fff;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
